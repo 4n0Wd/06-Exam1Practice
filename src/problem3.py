@@ -37,7 +37,7 @@ def main():
 def run_test_problem3a():
     """ Tests the   problem3a   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this TEST function.
+    # DONE: 2. Implement this TEST function.
     #   It TESTS the  problem1a  function defined below.
     #   Include at least **   5   ** tests (we wrote four for you).
     # ------------------------------------------------------------------
@@ -95,6 +95,12 @@ def run_test_problem3a():
     print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
+    # ------------------------------------------------------------------
+    # DONE: 2 (continued).
+    # Below this comment (or integrated with one of the above tests,
+    # your choice), add 1 more test case of your own choosing.
+    # ------------------------------------------------------------------
+
     # Test 5 (it is on window 3):
     point = rg.Point(100, 100)
     expected = 4
@@ -105,11 +111,7 @@ def run_test_problem3a():
 
     window3.close_on_mouse_click()
 
-    # ------------------------------------------------------------------
-    # TO DO: 2 (continued).
-    # Below this comment (or integrated with one of the above tests,
-    # your choice), add 1 more test case of your own choosing.
-    # ------------------------------------------------------------------
+
 
 
 def problem3a(window, point, n):
@@ -156,7 +158,7 @@ def problem3a(window, point, n):
     return count
 
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     # ------------------------------------------------------------------
     # ------------------------------------------------------------------
