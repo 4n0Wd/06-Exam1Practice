@@ -221,8 +221,18 @@ def problem3b(m, point1):
         :type m:      int
         :type point1: rg.Point
     """
+
+    window = rg.RoseWindow(400, 600)
+    count = 0
+    for k in range(m):
+        count = count + problem3a(window, rg.Point(point1.x, point1.y + 60 * k), (k + 1) * 2 + 1)
+    window.render()
+    window.continue_on_mouse_click()
+    return count
+
+
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #          Tests have been written for you (above).
     #
     ####################################################################
