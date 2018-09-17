@@ -121,8 +121,6 @@ def problem2a(circle, rectangle, window):
     window.continue_on_mouse_click()
 
 
-
-
 def run_test_problem2b():
     """ Tests the  problem2b   function. """
     print()
